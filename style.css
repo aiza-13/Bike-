@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+/* box-sizing: border-box; */
+}
+body{
+       background: rgba(0,0,0,0.6)   url(bike...avif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.container{
+   background: transparent;
+ display: flex;
+ justify-content: space-between;
+  padding: 20px;
+  color: white;
+  margin: auto;
+}
+.container h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+.navbar ul li{
+padding: 0 20px;
+display: inline-block;
+list-style: none;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+background-color:grey ;
+}
+.content{
+    position: absolute;
+  margin-top: 12%;
+  margin-left: 17%;
+    color: white;
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .content2{
+   position: absolute;
+    margin-top: 20%;
+    margin-left: 17%;
+  }
+  .content2 input{
+     width: 350px;
+       border: 2px solid white;
+     padding: 18px;
+      }
+      .btn{
+        position: absolute;
+       margin-top: 25.5%;
+        margin-left: 30%;
+      }
+      .btn a{
+        color: white;
+        background-color:black;
+        align-items: center;
+        padding: 17px 20px;
+        text-decoration: none;
+        font-weight: 500;
+      }
